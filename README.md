@@ -27,10 +27,10 @@ People who want a useful recurring brief from their own inbox without giving the
 
 ## Choose your email provider
 
-| If you use | Start here | Status |
+| Email provider | Setup | Status |
 | --- | --- | --- |
 | Gmail | [Gmail Setup Prompt](gmail-setup-prompt.md) | Validated |
-| Outlook Email | [Outlook Setup Prompt](outlook-setup-prompt.md) | Manual test required; workplace access may need administrator approval |
+| Outlook Email | [Outlook Setup Prompt](outlook-setup-prompt.md) | Pilot — manual test required |
 
 Both routes require a ChatGPT account where the relevant email app and Scheduled tasks are available. Availability can vary by account, plan, region, and workspace settings.
 
@@ -57,11 +57,11 @@ Read [Trust & Data Handling](trust-and-data-handling.md) before connecting an ac
 
 ## Repository map
 
-- [Configuration Worksheet](configuration-worksheet.md)
-- [Gmail Setup Prompt](gmail-setup-prompt.md)
-- [Quick Start](quick-start.md)
-- [Outlook Setup Prompt](outlook-setup-prompt.md)
-- [Trust & Data Handling](trust-and-data-handling.md)
-- [Stop & Disconnect](stop-and-disconnect.md)
-- [Example Brief](example-brief.md)
-- [Changelog](CHANGELOG.md)
+1. [Quick Start](quick-start.md)
+2. [Configuration Worksheet](configuration-worksheet.md)
+3. [Gmail Setup Prompt](gmail-setup-prompt.md)
+4. [Outlook Setup Prompt](outlook-setup-prompt.md)
+5. [Example Brief](example-brief.md)
+6. [Trust & Data Handling](trust-and-data-handling.md)
+7. [Stop & Disconnect](stop-and-disconnect.md)
+8. [Changelog](CHANGELOG.md)
