@@ -1,6 +1,6 @@
 # Reusable Setup Prompt
 
-Copy the prompt below into a new ChatGPT chat after completing the [Configuration Worksheet](configuration-worksheet.md). Replace every bracketed field.
+Copy the prompt below into a new ChatGPT chat after using the [Configuration Worksheet](configuration-worksheet.md) to choose your settings. Replace every bracketed field with your choices. The worksheet stays with you; do not attach or upload it.
 
 ---
 
