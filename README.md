@@ -55,7 +55,7 @@ You can rename, remove, reorder, or add categories. For example: Career / Opport
 
 ## Trust and control
 
-Read [Trust & Data Handling](docs/trust-and-data-handling.md) before connecting an account. Read [Stop & Disconnect](stop-and-disconnect.md) to disable a task or disconnect it later.
+Read [Trust & Data Handling](docs/trust-and-data-handling.md) before connecting an account. Read [Stop & Disconnect](docs/stop-and-disconnect.md) to disable a task or disconnect it later.
 
 ## Repository map
 
