@@ -1,16 +1,20 @@
-# Stop & Disconnect
+# Stop and Disconnect
 
-## Stop the recurring brief
+## Stop a recurring brief
 
-In the ChatGPT chat where you created the scheduled task, disable or delete that task. Confirm that no future run remains scheduled.
+If you created a recurring task, open the ChatGPT chat or task where it was created and pause or delete that task.
 
-## Disconnect Gmail
+Stopping the task prevents future runs. It does not change your email account.
 
-Open ChatGPT settings or the relevant Plugins/Connections area, find Gmail, and disconnect the account. Review the account screen to confirm the connection is removed.
+## Disconnect your email app
 
-## Optional cleanup
+1. Open ChatGPT.
+2. Go to **Settings → Apps/Connections**.
+3. Select the connected email app: **Gmail** or **Outlook Email**.
+4. Choose **Disconnect** and confirm.
 
-- Delete the test chat or its generated briefs if you no longer want them in your ChatGPT history.
-- Keep a copy of your configuration worksheet if you may want to recreate the setup later.
+Disconnecting removes ChatGPT’s access to that connected email app. It does not delete any original email from your mailbox.
 
-Stopping a task and disconnecting Gmail do not delete the original emails in Gmail.
+## If you are unsure
+
+Do not run another brief or schedule another task until you have reviewed the connection and permissions. For work accounts, contact your organization’s IT or security team if you need help understanding its policy.
