@@ -1,6 +1,6 @@
 # Configuration Worksheet
 
-Complete this before creating a personal Email Triage chat.
+Use this page as a planning checklist before creating a personal Email Triage chat. You can keep it open in your browser, jot your choices in a note, or make a copy for yourself. **Do not upload or attach this worksheet to ChatGPT**—you will simply copy your choices into the setup prompt.
 
 ## Eligibility
 
@@ -44,6 +44,7 @@ Examples: Career / Opportunities, Clients, Family, Finance, Travel, School.
 
 | Category name | What belongs here? |
 | --- | --- |
+| Example: Career / Opportunities | Job leads, recruiter replies, referrals, and user-specific professional opportunities. |
 |  |  |
 |  |  |
 |  |  |
