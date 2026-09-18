@@ -1,8 +1,8 @@
 # Email Triage Starter Kit
 
-Turn a connected Gmail inbox into a personalized, read-only Morning Brief in ChatGPT.
+Turn a connected inbox into a personalized, read-only Morning Brief in ChatGPT.
 
-This is a setup kit, not a hosted email service. Each person connects and authorizes their own Gmail account, chooses their own categories and schedule, and receives their brief inside ChatGPT.
+This is a setup kit, not a hosted email service. Each person connects and authorizes their own email account, chooses their own categories and schedule, and receives their brief inside ChatGPT.
 
 **No coding is required.** Most people should be able to complete the setup in about 15–30 minutes by following the steps below in order.
 
@@ -18,28 +18,28 @@ This is a setup kit, not a hosted email service. Each person connects and author
 
 - Send or draft email.
 - Delete, archive, label, mark spam, or unsubscribe from email.
-- Create calendar events or change Gmail account settings.
+- Create calendar events or change email-account settings.
 - Apply to jobs, purchase anything, or take other external actions.
 
 ## Who it is for
 
 People who want a useful recurring brief from their own inbox without giving the setup permission to alter that inbox.
 
-## Requirements
+## Choose your email provider
 
-- A ChatGPT account where Gmail and Scheduled tasks are available.
-- A Gmail account the user can connect themselves.
-- A willingness to review one manual run before scheduling.
+| If you use | Start here | Status |
+| --- | --- | --- |
+| Gmail | [Gmail Setup Prompt](gmail-setup-prompt.md) | Validated |
+| Outlook Email | [Outlook Setup Prompt](outlook-setup-prompt.md) | Manual test required; workplace access may need administrator approval |
 
-Availability can vary by account, plan, region, and workspace settings. Check before beginning.
+Both routes require a ChatGPT account where the relevant email app and Scheduled tasks are available. Availability can vary by account, plan, region, and workspace settings.
 
 ## Start here
 
-1. Read the [Quick Start](quick-start.md).
-2. Complete the [Configuration Worksheet](configuration-worksheet.md).
-3. Copy the [Reusable Setup Prompt](setup-prompt.md) into a new ChatGPT chat and replace its brackets with your choices.
-4. Run it once manually and review the result.
-5. Schedule it in the same chat only after the manual brief is useful.
+1. Choose your provider above.
+2. Use the [Configuration Worksheet](configuration-worksheet.md) as a planning checklist. You do not need to download, upload, or submit it.
+3. Follow the provider-specific instructions and run one manual brief.
+4. Review the result before scheduling.
 
 ## Suggested default categories
 
@@ -53,13 +53,14 @@ You can rename, remove, reorder, or add categories. For example: Career / Opport
 
 ## Trust and control
 
-Read [Trust & Data Handling](trust-and-data-handling.md) before connecting Gmail. Read [Stop & Disconnect](stop-and-disconnect.md) to disable a task or disconnect Gmail later.
+Read [Trust & Data Handling](trust-and-data-handling.md) before connecting an account. Read [Stop & Disconnect](stop-and-disconnect.md) to disable a task or disconnect it later.
 
 ## Repository map
 
 - [Configuration Worksheet](configuration-worksheet.md)
-- [Reusable Setup Prompt](setup-prompt.md)
+- [Gmail Setup Prompt](gmail-setup-prompt.md)
 - [Quick Start](quick-start.md)
+- [Outlook Setup Prompt](outlook-setup-prompt.md)
 - [Trust & Data Handling](trust-and-data-handling.md)
 - [Stop & Disconnect](stop-and-disconnect.md)
 - [Example Brief](example-brief.md)
