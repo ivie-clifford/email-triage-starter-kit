@@ -1,33 +1,51 @@
 # Quick Start
 
-## 1. Check eligibility
+This kit creates a read-only Morning Brief from your email in ChatGPT. It does not send, draft, delete, archive, label, or otherwise change email.
 
-Confirm that your ChatGPT account can connect Gmail and create Scheduled tasks. If either is unavailable, this Starter Kit is not currently supported for your account.
+## 1. Choose your email provider
 
-## 2. Connect your Gmail account
+| Provider | Setup file | Status |
+| --- | --- | --- |
+| Gmail | [Gmail Setup Prompt](gmail-setup-prompt.md) | Validated |
+| Outlook Email | [Outlook Setup Prompt](outlook-setup-prompt.md) | Pilot — test manually first |
 
-Connect Gmail through ChatGPT and review the requested permissions. Use only your own account.
+If you use a work Outlook account, your employer may need to allow the Outlook connection.
 
-## 3. Configure the brief
+## 2. Confirm access
 
-Complete the [Configuration Worksheet](configuration-worksheet.md). Choose your timezone, lookback window, priority people/topics, exclusions, categories, and a detail level: **Concise**, **Standard** (recommended), or **Detailed**.
+In ChatGPT, open **Settings → Apps/Connections** and confirm that your chosen email provider is available to connect.
 
-## 4. Run once manually
+For Outlook, stop here if your organization blocks the connection or requires administrator approval.
 
-Copy the completed [Setup Prompt](setup-prompt.md) into a new chat. Do not schedule it yet.
+## 3. Choose your preferences
 
-Check that the output:
+Read [Configuration Worksheet](configuration-worksheet.md) and decide:
 
-- includes the local date and coverage window;
-- uses your categories only;
-- correctly surfaces important items;
-- includes source-email links where available; and
-- did not modify your mailbox.
+- the email provider you are using;
+- your timezone and lookback window;
+- concise, standard, or detailed output;
+- categories, priority people, keywords, and items to suppress.
+
+The worksheet is a planning aid. You do **not** need to download, upload, or attach it.
+
+## 4. Run a manual brief
+
+Open the appropriate setup file, copy its prompt into a new ChatGPT chat, and replace the bracketed configuration choices with yours.
+
+- Gmail: [Gmail Setup Prompt](gmail-setup-prompt.md)
+- Outlook: [Outlook Setup Prompt](outlook-setup-prompt.md)
+
+Review the first output carefully before creating any schedule.
 
 ## 5. Schedule only after review
 
-Ask ChatGPT in that same chat to schedule the tested configuration on your chosen cadence. Start with one scheduled run or a low-frequency schedule, then review the output before making it routine.
+Create a recurring task only when:
 
-## 6. Adjust using evidence
+- the email connection works;
+- the brief is useful and correctly categorized;
+- the output includes the expected date and coverage window; and
+- you are comfortable with the connected-email permissions.
 
-Change categories, priorities, exclusions, or detail only when an actual output shows a reason to do so.
+## 6. Adjust as you learn
+
+Update your copied prompt when you want different categories, priorities, output detail, or suppression rules. The repository files remain your reusable starting point.
