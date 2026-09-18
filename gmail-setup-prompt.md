@@ -1,10 +1,10 @@
-# Reusable Setup Prompt
+# Gmail Setup Prompt (Validated)
 
 Copy the prompt below into a new ChatGPT chat after using the [Configuration Worksheet](configuration-worksheet.md) to choose your settings. Replace every bracketed field with your choices. The worksheet stays with you; do not attach or upload it.
 
 ---
 
-Set up a read-only Email Triage Morning Brief using my connected Gmail account.
+Set up a read-only Email Triage Morning Brief using my connected Gmail account only.
 
 ## My configuration
 
