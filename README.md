@@ -29,17 +29,17 @@ People who want a useful recurring brief from their own inbox without giving the
 
 | Email provider | Setup | Status |
 | --- | --- | --- |
-| Gmail | [Gmail Setup Prompt](gmail-setup-prompt.md) | Validated |
-| Outlook Email | [Outlook Setup Prompt](outlook-setup-prompt.md) | Pilot — manual test required |
+| Gmail | [Gmail Setup Prompt](docs/gmail-setup-prompt.md) | Validated |
+| Outlook Email | [Outlook Setup Prompt](docs/outlook-setup-prompt.md) | Pilot — manual test required |
 
 Both routes require a ChatGPT account where the relevant email app and Scheduled tasks are available. Availability can vary by account, plan, region, and workspace settings.
 
 ## Quick Start
 
-Follow the [step-by-step Quick Start](quick-start.md) to set up your first manual brief.
+Follow the [step-by-step Quick Start](docs/quick-start.md) to set up your first manual brief.
 
 1. Choose your provider above.
-2. Use the [Configuration Worksheet](configuration-worksheet.md) as a planning checklist. You do not need to download, upload, or submit it.
+2. Use the [Configuration Worksheet](docs/configuration-worksheet.md) as a planning checklist. You do not need to download, upload, or submit it.
 3. Follow the provider-specific instructions and run one manual brief.
 4. Review the result before scheduling.
 
@@ -55,15 +55,15 @@ You can rename, remove, reorder, or add categories. For example: Career / Opport
 
 ## Trust and control
 
-Read [Trust & Data Handling](trust-and-data-handling.md) before connecting an account. Read [Stop & Disconnect](stop-and-disconnect.md) to disable a task or disconnect it later.
+Read [Trust & Data Handling](docs/trust-and-data-handling.md) before connecting an account. Read [Stop & Disconnect](stop-and-disconnect.md) to disable a task or disconnect it later.
 
 ## Repository map
 
-1. [Quick Start](quick-start.md)
-2. [Configuration Worksheet](configuration-worksheet.md)
-3. [Gmail Setup Prompt](gmail-setup-prompt.md)
-4. [Outlook Setup Prompt](outlook-setup-prompt.md)
-5. [Example Brief](example-brief.md)
-6. [Trust & Data Handling](trust-and-data-handling.md)
-7. [Stop & Disconnect](stop-and-disconnect.md)
-8. [Changelog](CHANGELOG.md)
+1. [Quick Start](docs/quick-start.md)
+2. [Configuration Worksheet](docs/configuration-worksheet.md)
+3. [Gmail Setup Prompt](docs/gmail-setup-prompt.md)
+4. [Outlook Setup Prompt](docs/outlook-setup-prompt.md)
+5. [Example Brief](docs/example-brief.md)
+6. [Trust & Data Handling](docs/trust-and-data-handling.md)
+7. [Stop & Disconnect](docs/stop-and-disconnect.md)
+8. [Changelog](docs/CHANGELOG.md)
