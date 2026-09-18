@@ -1,59 +1,46 @@
 # Configuration Worksheet
 
-Use this page as a planning checklist before creating a personal Email Triage chat. You can keep it open in your browser, jot your choices in a note, or make a copy for yourself. **Do not upload or attach this worksheet to ChatGPT**—you will simply copy your choices into the setup prompt.
+Use this as a planning checklist before you run a setup prompt. You do **not** need to download, upload, or attach this file. Read it, take notes if useful, then copy your choices into the appropriate setup prompt.
 
-## Eligibility
+## Eligibility check
 
-- [ ] Gmail is available to connect in my ChatGPT account.
-- [ ] Scheduled tasks are available in my ChatGPT account.
-- [ ] I understand that availability can vary by account, plan, region, and workspace settings.
+* [ ] I selected an email provider: Gmail or Outlook Email.
+* [ ] My selected provider is available to connect in my ChatGPT account.
+* [ ] I can run a manual, read-only test before scheduling anything.
+* [ ] I understand that availability can vary by account, plan, region, and workplace policy.
+* [ ] If I use work Outlook, my organization allows the Outlook connection or has approved it.
 
-If a box is unchecked, stop. This kit is designed for the supported recurring setup path.
+Gmail is the validated route. Outlook is a pilot route and should be manually tested before scheduling.
 
 ## My brief
 
-| Setting | My choice |
-| --- | --- |
-| Timezone |  |
-| Run days and time |  |
-| Lookback window | 24 hours / other:  |
-| Detail level | Concise / standard / detailed |
-| Priority people or organizations |  |
-| Important topics or keywords |  |
-| Suppress unless urgent |  |
+| Setting                          | My choice                     |
+| -------------------------------- | ----------------------------- |
+| Email provider                   | Gmail / Outlook Email         |
+| Timezone                         |                               |
+| Lookback window                  | e.g., previous 24 hours       |
+| Detail level                     | Concise / Standard / Detailed |
+| Priority people or organizations |                               |
+| Priority keywords                |                               |
+| Items to suppress                |                               |
 
-**Choose a detail level:**
+## My categories
 
-- **Concise** — only the most important items, with brief explanations.
-- **Standard** *(recommended)* — a balanced daily brief with the context needed to decide what to do.
-- **Detailed** — a fuller update, including more useful items and context.
+Use the defaults, remove ones you do not need, or add a personal category.
 
-## Categories
+| Category                   | What belongs here?                                                                                   |
+| -------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Act First                  | A concrete next step required now or soon                                                            |
+| Needs Response             | A reply is reasonably needed but is not urgent                                                       |
+| Upcoming / Time-Sensitive  | Deadlines, appointments, confirmations, or reminders                                                 |
+| FYI                        | Useful updates requiring no action                                                                   |
+| Reading / Useful           | Substantive items worth reading later                                                                |
+| Optional personal category | Example: Career / Opportunities for job leads, referrals, or user-specific paid research invitations |
 
-Start with any combination of these, then add, rename, reorder, or remove categories to fit your inbox:
+## First-run checks
 
-- [ ] Act First — a concrete next step is required now or soon.
-- [ ] Needs Response — a reply is reasonably needed but not urgent.
-- [ ] Upcoming / Time-Sensitive — deadlines, appointments, confirmations, or reminders.
-- [ ] FYI — useful updates that need no action.
-- [ ] Reading / Useful — substantive items worth reading later.
-
-### Optional personal categories
-
-Examples: Career / Opportunities, Clients, Family, Finance, Travel, School.
-
-| Category name | What belongs here? |
-| --- | --- |
-| Example: Career / Opportunities | Job leads, recruiter replies, referrals, and user-specific professional opportunities. |
-|  |  |
-|  |  |
-|  |  |
-
-## First-run acceptance check
-
-- [ ] The brief begins with its local date and coverage window.
-- [ ] It uses only my selected categories.
-- [ ] Important messages are placed correctly.
-- [ ] Source-email links appear when available.
-- [ ] No mailbox action occurred.
-- [ ] Any limitation is clear.
+* [ ] The output names the date and coverage window.
+* [ ] Important messages have the correct category.
+* [ ] Low-value promotions and generic notifications are omitted.
+* [ ] The brief does not claim I replied, applied, paid, booked, or completed an action unless the email clearly confirms it.
+* [ ] No email actions were taken.
