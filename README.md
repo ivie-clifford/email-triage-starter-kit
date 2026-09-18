@@ -34,7 +34,9 @@ People who want a useful recurring brief from their own inbox without giving the
 
 Both routes require a ChatGPT account where the relevant email app and Scheduled tasks are available. Availability can vary by account, plan, region, and workspace settings.
 
-## Start here
+## Quick Start
+
+Follow the [step-by-step Quick Start](quick-start.md) to set up your first manual brief.
 
 1. Choose your provider above.
 2. Use the [Configuration Worksheet](configuration-worksheet.md) as a planning checklist. You do not need to download, upload, or submit it.
