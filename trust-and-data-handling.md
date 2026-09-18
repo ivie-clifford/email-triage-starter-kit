@@ -1,30 +1,34 @@
-# Trust & Data Handling
+# Trust and Data Handling
 
-## What this kit is
+## What this starter kit is
 
-This repository contains instructions and prompt templates. It does not run an email service, receive your Gmail credentials, or collect your inbox content.
+This repository provides instructions and prompts. It is not a hosted service, and it does not receive, store, or collect your email credentials or inbox content.
 
-## What happens when you use it
+You connect Gmail or Outlook Email directly within your own ChatGPT account.
 
-You connect Gmail within your own ChatGPT account. The configured chat reads the email needed to create the brief under the permissions you approve. The brief is delivered in ChatGPT.
+## What the prompt is designed to do
 
-## Safety boundary in v0.1
+The setup prompts are read-only. They are designed to review selected received email and produce a Morning Brief.
 
-The setup is read-only. It must not:
+They do not instruct ChatGPT to:
 
-- send or draft messages;
-- delete, archive, label, mark spam, or unsubscribe;
-- create calendar events;
-- change account settings; or
-- take external actions based on an email.
+* send or draft replies;
+* delete, archive, label, mark spam, unsubscribe, or otherwise change email;
+* create calendar events;
+* change account settings; or
+* access other apps, files, or workspaces.
 
 ## Your controls
 
-- Review Gmail permissions before connecting.
-- Test manually before creating a schedule.
-- Review scheduled results and adjust the configuration when evidence warrants it.
-- Disable the task or disconnect Gmail whenever you want. See [Stop & Disconnect](stop-and-disconnect.md).
+Before using the kit:
 
-## Important limitation
+1. Review the permissions shown when connecting Gmail or Outlook Email.
+2. Run a manual brief first.
+3. Review the output before scheduling a recurring task.
+4. Disconnect the app whenever you no longer want ChatGPT to access it.
 
-This is a triage aid, not a guarantee that every important email will be surfaced. Check time-sensitive, financial, health, legal, security, and application-related information directly in Gmail.
+For work Outlook accounts, follow your employer’s data and app-connection policies. If access requires administrator approval or is blocked, stop rather than trying to work around that restriction.
+
+## Important limitations
+
+A Morning Brief can miss context, misclassify an email, or summarize something inaccurately. Check important information directly in the original email, especially deadlines, payments, job opportunities, legal matters, and health information.
