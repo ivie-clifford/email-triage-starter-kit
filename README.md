@@ -30,7 +30,7 @@ People who want a useful recurring brief from their own inbox without giving the
 | Email provider | Setup | Status |
 | --- | --- | --- |
 | Gmail | [Gmail Setup Prompt](docs/gmail-setup-prompt.md) | Validated |
-| Outlook Email | [Outlook Setup Prompt](docs/outlook-setup-prompt.md) | Pilot — manual test required |
+| Outlook Email | [Outlook Setup Prompt](docs/outlook-setup-prompt.md) | Validated |
 
 Both routes require a ChatGPT account where the relevant email app and Scheduled tasks are available. Availability can vary by account, plan, region, and workspace settings.
 
