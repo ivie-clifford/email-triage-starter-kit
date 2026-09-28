@@ -2,7 +2,7 @@
 
 Use this if your email is in Outlook. It follows the same configuration flow as Gmail, but Outlook access must be validated with one manual, read-only run before you create a schedule.
 
-Before starting, check **Settings → Apps** (or Connections) in ChatGPT for **Outlook Email**.
+Before starting, check **Plugins → Outlook Email** (or Connections) in ChatGPT for **Outlook Email**.
 
 - If it is available, connect your own Outlook account and continue.
 - If Microsoft or your employer requests administrator approval, stop and ask your administrator. Do not seek a workaround.
@@ -10,10 +10,12 @@ Before starting, check **Settings → Apps** (or Connections) in ChatGPT for **O
 
 Complete the [Configuration Worksheet](configuration-worksheet.md), selecting **Outlook Email** as your provider. Keep the worksheet open or copy your choices into a note—do not upload it.
 
-Copy the prompt below into a new ChatGPT chat and replace every bracketed field.
+## Next: Copy and run the prompt below
 
----
+> [!IMPORTANT]
+> Copy everything inside the box below into a new ChatGPT chat. Replace every bracketed field with your choices before sending it.
 
+```text
 Set up one read-only Email Triage Morning Brief using my connected Outlook Email account only. Do not use Gmail, other connected apps, prior chat context, external files, or existing Email Triage configurations. Do not create a scheduled task yet.
 
 ## My configuration
@@ -42,6 +44,7 @@ Use only these selected categories. Do not invent, rename, merge, or reorder the
 - Use the full message body whenever a subject or preview is insufficient to classify a potentially important email.
 - A reply that creates a concrete next step belongs in the category that represents immediate action, even if I sent the earlier message in the thread.
 - Surface only messages that are actionable, time-sensitive, useful, or substantively worth reading under my selected categories.
+- Treat routine account-security, sign-in, verification, and app-connection notices that merely confirm an event and recommend action only if it was unrecognized as FYI when that category is selected—not Act First. Use Act First only when the message identifies suspicious activity, blocked access, required remediation, a deadline, or another concrete action required now or soon.
 - Omit repetitive promotions, generic newsletters, social notifications, and other low-value messages unless one of my selected categories or rules includes them.
 - Do not state that I replied, applied, booked, paid, or completed an action unless the email thread clearly confirms it.
 
@@ -60,3 +63,5 @@ Then show only my selected categories. For every surfaced item, include sender, 
 Read-only access only. Do not send, draft, delete, archive, label, mark spam, unsubscribe, create calendar events, or change account settings. Do not infer missing facts or actions.
 
 Run this once manually. Afterward, report whether Outlook Email access worked, how many messages were reviewed, whether full-body retrieval was needed, any limitation that would prevent reliable recurrence, and whether this configuration is ready for one scheduled test. Do not create a scheduled task until I explicitly approve it.
+
+```
