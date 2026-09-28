@@ -1,8 +1,15 @@
-# Gmail Setup Prompt (Validated)
+# Gmail Setup Prompt
 
-Copy the prompt below into a new ChatGPT chat after using the [Configuration Worksheet](configuration-worksheet.md) to choose your settings. Replace every bracketed field with your choices. The worksheet stays with you; do not attach or upload it.
+Before starting, open **Plugins** in ChatGPT and select **Gmail**. In some interfaces, connected tools may still appear under **Apps** or **Connections**.
 
----
+Complete the [Configuration Worksheet](configuration-worksheet.md), selecting **Gmail** as your email provider. Keep the worksheet open or copy your choices into a note—do not upload it.
+
+## Next: Copy and run the prompt below
+
+> [!IMPORTANT]
+> Copy everything inside the box below into a new ChatGPT chat. Replace every bracketed field with your choices before sending it.
+
+```text
 
 Set up a read-only Email Triage Morning Brief using my connected Gmail account only.
 
@@ -50,3 +57,5 @@ Then show only my selected categories. For every surfaced item, include sender, 
 Read-only access only. Do not send, draft, delete, archive, label, mark spam, unsubscribe, create calendar events, or change account settings. Do not infer missing facts or actions.
 
 Run this once manually. Do not create a scheduled task until I explicitly approve it.
+
+```
