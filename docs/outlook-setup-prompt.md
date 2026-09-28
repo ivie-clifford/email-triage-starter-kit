@@ -1,8 +1,8 @@
-# Outlook Setup Prompt (Pilot)
+# Outlook Setup Prompt
 
 Use this if your email is in Outlook. It follows the same configuration flow as Gmail, but Outlook access must be validated with one manual, read-only run before you create a schedule.
 
-Before starting, check **Plugins → Outlook Email** (or Connections) in ChatGPT for **Outlook Email**.
+Before starting, open **Plugins** in ChatGPT and select **Outlook** Email. In some interfaces, connected tools may still appear under **Apps** or **Connections**.
 
 - If it is available, connect your own Outlook account and continue.
 - If Microsoft or your employer requests administrator approval, stop and ask your administrator. Do not seek a workaround.
