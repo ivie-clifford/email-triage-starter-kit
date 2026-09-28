@@ -11,7 +11,7 @@ Complete the [Configuration Worksheet](configuration-worksheet.md), selecting **
 
 ```text
 
-Set up a read-only Email Triage Morning Brief using my connected Gmail account only.
+Set up one read-only Email Triage Morning Brief using my connected Gmail account only. Do not use Outlook Email, other connected apps, prior chat context, external files, or existing Email Triage configurations. Do not create a scheduled task yet.
 
 ## My configuration
 
@@ -39,6 +39,7 @@ Use only these selected categories. Do not invent, rename, merge, or reorder the
 - Use the full message body whenever a subject or snippet is insufficient to classify a potentially important email.
 - A reply that creates a concrete next step belongs in the category that represents immediate action, even if I sent the earlier message in the thread.
 - Surface only messages that are actionable, time-sensitive, useful, or substantively worth reading under my selected categories.
+- Treat routine account-security, sign-in, verification, and app-connection notices that merely confirm an event and recommend action only if it was unrecognized as FYI when that category is selected—not Act First. Use Act First only when the message identifies suspicious activity, blocked access, required remediation, a deadline, or another concrete action required now or soon.
 - Omit repetitive promotions, generic newsletters, social notifications, and other low-value messages unless one of my selected categories or rules includes them.
 - Do not state that I replied, applied, booked, paid, or completed an action unless the email thread clearly confirms it.
 
